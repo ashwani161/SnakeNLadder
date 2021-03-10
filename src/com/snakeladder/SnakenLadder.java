@@ -1,5 +1,8 @@
 package com.snakeladder;
+
+import java.lang.Math;
 import java.util.Scanner;
+
 public class SnakenLadder {
 	public static void main(String[] args) {
 		int N = 0;
@@ -68,7 +71,6 @@ public class SnakenLadder {
 				N = 8;
 				System.out.println("Snake!");
 				break;
-
 			}
 			System.out.println("Coin moved to " + N);
 
