@@ -82,7 +82,7 @@ public class SnakenLadder {
 
 		case SNAKE:
 			currPos -= diceRoll;
-			if (currPos < 0) { // If current position goes below 0, reset
+			if (currPos < 0) { 
 				System.out.println(
 						"Since the current dice roll for snake will take player below 0, the player will move to start position.");
 				currPos = 0;
@@ -94,6 +94,7 @@ public class SnakenLadder {
 			System.out.println("Some error occured, default case");
 			break;
 
+			
 		}
 		return currPos;
 	}
